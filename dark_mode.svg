@@ -25,7 +25,7 @@
     <text y="255" class="header">GitHub Stats ——————————————————————————————————————————————————————————————————————</text>
     <text y="280" class="label">Repos:</text><text x="50" y="280" id="repo_data_dots" class="dots"> ............................ </text><text x="460" y="280" id="repo_data" class="value">21</text>
     <text y="300" class="label">Stars:</text><text x="50" y="300" id="star_data_dots" class="dots"> ............................. </text><text x="460" y="300" id="star_data" class="value">1</text>
-    <text y="320" class="label">Commits:</text><text x="70" y="320" id="commit_data_dots" class="dots"> ........................... </text><text x="460" y="320" id="commit_data" class="value">107</text>
+    <text y="320" class="label">Commits:</text><text x="70" y="320" id="commit_data_dots" class="dots"> ........................... </text><text x="460" y="320" id="commit_data" class="value">108</text>
     <text y="340" class="label">Followers:</text><text x="90" y="340" id="follower_data_dots" class="dots"> ............................. </text><text x="460" y="340" id="follower_data" class="value">0</text>
   </g>
 </svg>
