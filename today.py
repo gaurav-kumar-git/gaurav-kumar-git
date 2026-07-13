@@ -2,22 +2,37 @@ import datetime
 from dateutil import relativedelta
 import requests
 import os
-from lxml import etree
+import re
+from PIL import Image
 
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']
 
+def image_to_ascii(image_path, width=45):
+    try:
+        img = Image.open(image_path)
+        # Resize to fit the terminal area
+        aspect_ratio = img.height / img.width
+        height = int(width * aspect_ratio * 0.5) # 0.5 to account for font height
+        img = img.resize((width, height))
+        img = img.convert('L') # Grayscale
+
+        # Characters used for shading (Andrew Grant style)
+        chars = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "." , " "]
+        pixels = img.getdata()
+        ascii_str = ""
+        for i, pixel in enumerate(pixels):
+            if i % width == 0 and i != 0:
+                ascii_str += "\n"
+            ascii_str += chars[pixel // 22]
+        return ascii_str
+    except Exception as e:
+        print(f"ASCII Error: {e}")
+        return " (Image Error) "
+
 def daily_readme(birthday):
     diff = relativedelta.relativedelta(datetime.datetime.today(), birthday)
-    return '{} {}, {} {}, {} {}'.format(
-        diff.years, 'year' + ('s' if diff.years != 1 else ''), 
-        diff.months, 'month' + ('s' if diff.months != 1 else ''), 
-        diff.days, 'day' + ('s' if diff.days != 1 else ''))
-
-def simple_request(query, variables):
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
-    if request.status_code == 200: return request
-    raise Exception('Query failed')
+    return f"{diff.years} years, {diff.months} months, {diff.days} days"
 
 def get_stats():
     query = '''
@@ -31,7 +46,7 @@ def get_stats():
             contributionsCollection { contributionCalendar { totalContributions } }
         }
     }'''
-    request = simple_request(query, {'login': USER_NAME})
+    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':{'login': USER_NAME}}, headers=HEADERS)
     data = request.json()['data']['user']
     stars = sum([edge['node']['stargazers']['totalCount'] for edge in data['repositories']['edges']])
     return {
@@ -41,29 +56,34 @@ def get_stats():
         'commits': data['contributionsCollection']['contributionCalendar']['totalContributions']
     }
 
-def svg_overwrite(filename, age, stats):
-    tree = etree.parse(filename)
-    root = tree.getroot()
-    find_and_replace(root, 'uptime_data', age)
-    justify_format(root, 'repo_data', stats['repos'], 10)
-    justify_format(root, 'star_data', stats['stars'], 10)
-    justify_format(root, 'commit_data', stats['commits'], 10)
-    justify_format(root, 'follower_data', stats['followers'], 10)
-    tree.write(filename, encoding='utf-8', xml_declaration=True)
+def update_svg(filename, age, stats, ascii_art):
+    with open(filename, 'r', encoding='utf-8') as f:
+        content = f.read()
 
-def justify_format(root, element_id, new_text, length):
-    new_text = str(f"{'{:,}'.format(new_text)}")
-    find_and_replace(root, element_id, new_text)
-    just_len = max(0, length - len(new_text))
-    dot_string = ' ' + ('.' * (just_len + 20)) + ' ' 
-    find_and_replace(root, f"{element_id}_dots", dot_string)
+    # Inject ASCII Art
+    content = re.sub(r'id="ascii_art">.*?</text>', f'id="ascii_art">{ascii_art}</text>', content, flags=re.DOTALL)
 
-def find_and_replace(root, element_id, new_text):
-    element = root.find(f".//*[@id='{element_id}']")
-    if element is not None: element.text = new_text
+    # Update Stats
+    updates = [
+        ('uptime_data', age, 18),
+        ('repo_data', str(stats['repos']), 22),
+        ('star_data', str(stats['stars']), 22),
+        ('commit_data', str(stats['commits']), 20),
+        ('follower_data', str(stats['followers']), 16)
+    ]
+
+    for element_id, value, dot_length in updates:
+        content = re.sub(f'id="{element_id}">.*?<', f'id="{element_id}">{value}<', content)
+        just_len = max(0, dot_length - len(value))
+        dot_string = ' ' + ('.' * (just_len + 5)) + ' '
+        content = re.sub(f'id="{element_id}_dots">.*?<', f'id="{element_id}_dots">{dot_string}<', content)
+
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(content)
 
 if __name__ == '__main__':
     age = daily_readme(datetime.datetime(2002, 7, 13))
     stats = get_stats()
-    svg_overwrite('dark_mode.svg', age, stats)
-    svg_overwrite('light_mode.svg', age, stats)
+    ascii_art = image_to_ascii('profile.jpg')
+    update_svg('dark_mode.svg', age, stats, ascii_art)
+    update_svg('light_mode.svg', age, stats, ascii_art)
