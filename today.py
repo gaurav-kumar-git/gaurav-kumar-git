@@ -3,7 +3,6 @@ from dateutil import relativedelta
 import requests
 import os
 from lxml import etree
-import time
 
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']
@@ -46,9 +45,9 @@ def svg_overwrite(filename, age, stats):
     tree = etree.parse(filename)
     root = tree.getroot()
     find_and_replace(root, 'uptime_data', age)
-    justify_format(root, 'repo_data', stats['repos'], 6)
-    justify_format(root, 'star_data', stats['stars'], 14)
-    justify_format(root, 'commit_data', stats['commits'], 22)
+    justify_format(root, 'repo_data', stats['repos'], 10)
+    justify_format(root, 'star_data', stats['stars'], 10)
+    justify_format(root, 'commit_data', stats['commits'], 10)
     justify_format(root, 'follower_data', stats['followers'], 10)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
@@ -56,7 +55,7 @@ def justify_format(root, element_id, new_text, length):
     new_text = str(f"{'{:,}'.format(new_text)}")
     find_and_replace(root, element_id, new_text)
     just_len = max(0, length - len(new_text))
-    dot_string = ' ' + ('.' * just_len) + ' ' if just_len > 2 else '. '
+    dot_string = ' ' + ('.' * (just_len + 20)) + ' ' 
     find_and_replace(root, f"{element_id}_dots", dot_string)
 
 def find_and_replace(root, element_id, new_text):
