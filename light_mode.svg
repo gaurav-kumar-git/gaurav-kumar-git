@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
   <rect width="800" height="420" rx="10" fill="#ffffff" stroke="#e1e4e8"/>
   <style>
@@ -10,7 +11,7 @@
   <g class="base" transform="translate(40, 40)">
     <text class="header">gaurav@kumar ——————————————————————————————————————————————————————————————————————</text>
     <text y="25" class="label">OS:</text><text x="30" y="25" class="dots">......................................................</text><text x="460" y="25" class="value">Ubuntu, MacOS, Windows</text>
-    <text y="45" class="label">Uptime:</text><text x="60" y="45" class="dots">..................................................</text><text x="460" y="45" id="uptime_data" class="value">Calculating...</text>
+    <text y="45" class="label">Uptime:</text><text x="60" y="45" class="dots">..................................................</text><text x="460" y="45" id="uptime_data" class="value">24 years, 0 months, 0 days</text>
     <text y="65" class="label">Host:</text><text x="45" y="65" class="dots">....................................................</text><text x="460" y="65" class="value">IIT Bombay (M.Tech)</text>
     <text y="85" class="label">Kernel:</text><text x="60" y="85" class="dots">.........................................</text><text x="420" y="85" class="value">Machine Learning &amp; LLM Systems</text>
     
@@ -22,9 +23,9 @@
     <text y="220" class="label">LinkedIn:</text><text x="80" y="220" class="dots">..........................................</text><text x="460" y="220" class="value">connectgaurav</text>
     
     <text y="255" class="header">GitHub Stats ——————————————————————————————————————————————————————————————————————</text>
-    <text y="280" class="label">Repos:</text><text x="50" y="280" id="repo_data_dots" class="dots">...............................................</text><text x="460" y="280" id="repo_data" class="value">0</text>
-    <text y="300" class="label">Stars:</text><text x="50" y="300" id="star_data_dots" class="dots">...............................................</text><text x="460" y="300" id="star_data" class="value">0</text>
-    <text y="320" class="label">Commits:</text><text x="70" y="320" id="commit_data_dots" class="dots">...........................................</text><text x="460" y="320" id="commit_data" class="value">0</text>
-    <text y="340" class="label">Followers:</text><text x="90" y="340" id="follower_data_dots" class="dots">.......................................</text><text x="460" y="340" id="follower_data" class="value">0</text>
+    <text y="280" class="label">Repos:</text><text x="50" y="280" id="repo_data_dots" class="dots"> ............................ </text><text x="460" y="280" id="repo_data" class="value">21</text>
+    <text y="300" class="label">Stars:</text><text x="50" y="300" id="star_data_dots" class="dots"> ............................. </text><text x="460" y="300" id="star_data" class="value">1</text>
+    <text y="320" class="label">Commits:</text><text x="70" y="320" id="commit_data_dots" class="dots"> ........................... </text><text x="460" y="320" id="commit_data" class="value">107</text>
+    <text y="340" class="label">Followers:</text><text x="90" y="340" id="follower_data_dots" class="dots"> ............................. </text><text x="460" y="340" id="follower_data" class="value">0</text>
   </g>
 </svg>
