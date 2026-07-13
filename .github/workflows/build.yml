@@ -1,7 +1,8 @@
 name: Update README SVGs
+
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every midnight
+    - cron: '0 0 * * *'
   push:
     branches: [main]
   workflow_dispatch:
@@ -11,17 +12,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+          
       - name: Install dependencies
-        run: pip install requests lxml python-dateutil
+        run: pip install requests lxml python-dateutil Pillow
+        
       - name: Run script
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
+        
       - name: Commit changes
         run: |
           git config --global user.name "github-actions[bot]"
