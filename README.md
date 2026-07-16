@@ -120,9 +120,9 @@ Deeksha Koul, **Gaurav Kumar**, Yash Sabale, Sunita Sarawagi
   alt="Gaurav Kumar's GitHub Stats"
   />
   <img
-    height="165"
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=gaurav-kumar-git&layout=compact&theme=github_dark&hide_border=true&langs_count=6"
-    alt="Gaurav's Top Languages"
+  height="165"
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=gaurav-kumar-git&layout=compact&theme=github_dark&hide_border=true&langs_count=6&hide=assembly"
+  alt="Gaurav's Top Languages"
   />
 </p>
 
