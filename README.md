@@ -47,10 +47,7 @@
 
 ## 📄 Research Publication
 
-**[Robust In-Context Selection via Online Learned Position-Corrected Attention](https://aclanthology.org/2026.findings-acl.1743/)**
-
-**ACL Findings 2026**  
-Deeksha Koul, **Gaurav Kumar**, Yash Sabale, Sunita Sarawagi
+**[Robust In-Context Selection via Online Learned Position-Corrected Attention](https://aclanthology.org/2026.findings-acl.1743/)** [**ACL Findings 2026**] 
 
 ---
 
