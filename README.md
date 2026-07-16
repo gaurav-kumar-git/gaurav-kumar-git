@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Gaurav Kumar 👋</h1>
+<h1 align="center">Hi, I'm Gaurav Kumar 👋</h1>
 
 <p align="center">
   <b>Incoming AI Scientist @ Wipro R&amp;D</b> · M.Tech CSE @ IIT Bombay · LLMs, Retrieval &amp; AI Systems
@@ -28,20 +28,20 @@
 
 ---
 
-## 🎓 Education & Experience
+## 🎓 Experience & Education
 
-- ✨ **Incoming AI Scientist — Wipro R&D**  
+- ✨ **Incoming AI Scientist — Wipro R&D**
+
+- 👨‍🏫 **Teaching Assistant — IIT Bombay (July 2024 - June 2026)**
+  - CS791: Probabilistic Foundations of AI
+  - CS217: Artificial Intelligence and Machine Learning Lab
+  - CS101: Computer Programming and Utilization
 
 - 🎓 **M.Tech in Computer Science and Engineering — IIT Bombay**  
   CPI: **8.95** · 2024–2026
 
 - 🎓 **B.Tech in Computer Science and Engineering — Lovely Professional University**  
   CGPA: **8.41** · 2020–2024
-
-- 👨‍🏫 **Teaching Assistant — IIT Bombay (2024-26)**
-  - CS217: Artificial Intelligence and Machine Learning Lab
-  - CS791: Probabilistic Foundations of AI
-  - CS101: Computer Programming and Utilization
 
 ---
 
@@ -108,7 +108,7 @@ Deeksha Koul, **Gaurav Kumar**, Yash Sabale, Sunita Sarawagi
 
 ## 🏆 Achievements
 
-- 🥇 Secured **GATE CS AIR 148** among approximately **1.24 lakh candidates**.
+- 🥇 Secured **GATE CS AIR 148** among **1.24 lakh candidates**.
 - 📚 Published research at **ACL Findings 2026**.
 
 ---
