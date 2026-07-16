@@ -77,24 +77,26 @@ Deeksha Koul, **Gaurav Kumar**, Yash Sabale, Sunita Sarawagi
 
 ### 💻 Programming Languages
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,cpp,c" alt="Python, C++, C" />
 </p>
 
+
 ### 🤖 Machine Learning & AI
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" alt="PyTorch, TensorFlow, Scikit-learn" />
 </p>
 
-<p align="left">
+
+<p align="center">
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
   <img src="https://img.shields.io/badge/Sentence%20Transformers-4B8BBE?style=for-the-badge" alt="Sentence Transformers" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/LLM%20Systems-111827?style=for-the-badge" alt="LLM Systems" />
   <img src="https://img.shields.io/badge/RAG-7C3AED?style=for-the-badge" alt="RAG" />
   <img src="https://img.shields.io/badge/Dense%20Retrieval-0F766E?style=for-the-badge" alt="Dense Retrieval" />
@@ -109,6 +111,23 @@ Deeksha Koul, **Gaurav Kumar**, Yash Sabale, Sunita Sarawagi
 
 - 🥇 Secured **GATE CS AIR 148** among approximately **1.24 lakh candidates**.
 - 📚 Published research at **ACL Findings 2026**.
+
+---
+## 💻 Coding Profiles
+
+<p align="center">
+
+  <a href="(https://leetcode.com/u/gk_cstorm/)">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+
+  <a href="https://deep-ml.com/profile/EVaW3njPSbYacjGEz687tEMwemK2">
+    <img
+      src="https://img.shields.io/badge/Deep--ML-Profile-111111?style=for-the-badge&logoColor=white"
+      alt="Deep-ML Profile"
+    />
+  </a>
+</p>
 
 ---
 ## 📊 GitHub Activity
