@@ -117,7 +117,7 @@ Deeksha Koul, **Gaurav Kumar**, Yash Sabale, Sunita Sarawagi
 
 <p align="center">
 
-  <a href="(https://leetcode.com/u/gk_cstorm/)">
+  <a href="https://leetcode.com/u/gk_cstorm/">
     <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
 
