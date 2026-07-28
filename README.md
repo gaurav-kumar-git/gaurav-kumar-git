@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Gaurav Kumar 👋</h1>
 
 <p align="center">
-  <b>Incoming AI Scientist @ Wipro R&amp;D</b> · M.Tech CSE @ IIT Bombay · LLMs, Retrieval &amp; AI Systems
+  <b>AI Scientist @ Wipro Innovation Labs</b> · M.Tech CSE @ IIT Bombay · LLMs, Retrieval &amp; AI Systems
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## 👋 About Me
 
-- 🧠 Incoming **AI Scientist at Wipro R&D**.
+- 🧠 **AI Scientist at Wipro Innovation Labs**.
 - 🎓 Completed my **M.Tech in Computer Science and Engineering from IIT Bombay**.
 - 🔬 Interested in **LLM systems, retrieval, reranking, long-context reasoning, AI agents, and graph-based learning**.
 - 📄 Published at **ACL Findings 2026** on robust in-context selection using position-corrected attention.
