@@ -30,7 +30,7 @@
 
 ## 🎓 Experience & Education
 
-- ✨ **Incoming AI Scientist — Wipro R&D**
+- ✨ **AI Scientist — Wipro Innovation Lab**
 
 - 👨‍🏫 **Teaching Assistant — IIT Bombay (July 2024 - June 2026)**
   - CS791: Probabilistic Foundations of AI
