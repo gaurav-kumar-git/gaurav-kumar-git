@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Gaurav Kumar 👋</h1>
 
 <p align="center">
-  <b>AI Scientist @ Wipro Innovation Lab</b> · M.Tech CSE @ IIT Bombay · LLMs, Retrieval &amp; AI Systems
+  <b>AI Scientist @ Wipro Innovation Lab</b> · CSE @ IIT Bombay · LLMs, Retrieval &amp; AI Systems
 </p>
 
 <p align="center">
