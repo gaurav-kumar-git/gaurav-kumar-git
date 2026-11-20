@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Gaurav Kumar 👋</h1>
 
 <p align="center">
-  <b>AI Scientist</b> · <b>CSE @ IIT Bombay</b> · <b>LLMs, Retrieval &amp; AI Systems</b>
+  <b>AI Researcher</b> · <b>CSE @ IIT Bombay</b> · <b>LLMs, Retrieval &amp; AI Systems</b>
 </p>
 
 <p align="center">
