@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24c6dc&height=200&section=header&text=Gaurav%20Kumar&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20Researcher%20%C2%B7%20LLMs%20%C2%B7%20Retrieval%20%C2%B7%20AI%20Systems&descAlignY=60&descSize=18" alt="header" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24c6dc&height=200&section=header&text=Gaurav%20Kumar&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20Researcher%20%C2%B7%20CSE%20%40%20IIT%20Bombay&descAlignY=60&descSize=16" alt="header" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=00F5FF&center=true&vCenter=true&width=620&lines=Building+efficient+LLM+systems;Retrieval+%7C+Reranking+%7C+Long-context+reasoning;Attention-aware+AI+agents;Published+at+ACL+Findings+2026" alt="typing intro" />
 
