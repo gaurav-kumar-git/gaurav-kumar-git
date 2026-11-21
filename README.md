@@ -7,7 +7,7 @@
 <br><br>
 
 <a href="mailto:gauravkumar81437@gmail.com"><img src="https://img.shields.io/badge/EMAIL-161b22?style=for-the-badge&logo=gmail&logoColor=00f5ff" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/connectgaurav/"><img src="https://img.shields.io/badge/LINKEDIN-161b22?style=for-the-badge&logo=linkedin&logoColor=00f5ff" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/connectgaurav/"><img src="https://img.shields.io/badge/LINKEDIN-161b22?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzAwZjVmZiI+PHBhdGggZD0iTTAgMS4xNDZDMCAuNTEzLjUyNiAwIDEuMTc1IDBoMTMuNjVDMTUuNDc0IDAgMTYgLjUxMyAxNiAxLjE0NnYxMy43MDhjMCAuNjMzLS41MjYgMS4xNDYtMS4xNzUgMS4xNDZIMS4xNzVDLjUyNiAxNiAwIDE1LjQ4NyAwIDE0Ljg1NHptNC45NDMgMTIuMjQ4VjYuMTY5SDIuNTQydjcuMjI1em0tMS4yLTguMjEyYy44MzcgMCAxLjM1OC0uNTU0IDEuMzU4LTEuMjQ4LS4wMTUtLjcwOS0uNTItMS4yNDgtMS4zNDItMS4yNDhTMi40IDMuMjI2IDIuNCAzLjkzNGMwIC42OTQuNTIxIDEuMjQ4IDEuMzI3IDEuMjQ4em00LjkwOCA4LjIxMlY5LjM1OWMwLS4yMTYuMDE2LS40MzIuMDgtLjU4Ni4xNzMtLjQzMS41NjgtLjg3OCAxLjIzMi0uODc4Ljg2OSAwIDEuMjE2LjY2MiAxLjIxNiAxLjYzNHYzLjg2NWgyLjQwMVY5LjI1YzAtMi4yMi0xLjE4NC0zLjI1Mi0yLjc2NC0zLjI1Mi0xLjI3NCAwLTEuODQ1LjctMi4xNjUgMS4xOTN2LjAyNWgtLjAxNmwuMDE2LS4wMjVWNi4xNjloLTIuNGMuMDMuNjc4IDAgNy4yMjUgMCA3LjIyNXoiLz48L3N2Zz4K" alt="LinkedIn" /></a>
 <a href="https://aclanthology.org/2026.findings-acl.1743/"><img src="https://img.shields.io/badge/ACL%20FINDINGS%202026-161b22?style=for-the-badge&logo=readthedocs&logoColor=00f5ff" alt="Publication" /></a>
 
 </div>
@@ -17,11 +17,11 @@
 ### `> whoami`
 
 ```text
-name     : Gaurav Kumar
-role     : AI Researcher
-focus    : LLM systems, retrieval, long-context reasoning, agents, inference
-mission  : cut latency without giving up accuracy
-status   : online
+name      : Gaurav Kumar
+role      : AI Researcher
+focus     : LLM systems, retrieval, model deployment, inference, agents
+chasing   : tokens/sec, smarter KV caches, and the next LLM architecture
+status    : online
 ```
 
 ### `> stack`
