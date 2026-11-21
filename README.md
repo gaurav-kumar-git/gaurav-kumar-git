@@ -24,19 +24,5 @@ chasing   : tokens/sec, smarter KV caches, and the next LLM architecture
 status    : online
 ```
 
-### `> stack`
-
-<div align="center"
-<p>
-  <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=00f5ff" alt="Python" />
-  <img src="https://img.shields.io/badge/C++-161b22?style=for-the-badge&logo=cplusplus&logoColor=00f5ff" alt="C++" />
-  <img src="https://img.shields.io/badge/PyTorch-161b22?style=for-the-badge&logo=pytorch&logoColor=00f5ff" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-161b22?style=for-the-badge&logo=huggingface&logoColor=00f5ff" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/scikit--learn-161b22?style=for-the-badge&logo=scikitlearn&logoColor=00f5ff" alt="scikit-learn" />
-</p>
-</div>
-
-
-
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24c6dc,50:302b63,100:0f0c29&height=100&section=footer" alt="footer" width="100%" />
