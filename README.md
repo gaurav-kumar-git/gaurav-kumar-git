@@ -19,7 +19,7 @@
 ```text
 name     : Gaurav Kumar
 role     : AI Researcher
-focus    : LLM systems, retrieval, long-context reasoning, agents
+focus    : LLM systems, retrieval, long-context reasoning, agents, inference
 mission  : cut latency without giving up accuracy
 status   : online
 ```
