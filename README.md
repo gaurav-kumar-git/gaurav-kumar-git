@@ -36,11 +36,7 @@ status    : online
 </p>
 </div>
 
-### `> telemetry`
 
-<p align="center">
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=gaurav-kumar-git&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00c8&text_color=c9d1d9" alt="GitHub stats" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=gaurav-kumar-git&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&langs_count=6&hide=assembly" alt="Top languages" />
-</p>
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24c6dc,50:302b63,100:0f0c29&height=100&section=footer" alt="footer" width="100%" />
