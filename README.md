@@ -17,8 +17,6 @@
 </p>
 
 ---
-## 📊 GitHub Activity
-
 <p align="center">
   <img
   height="165"
